@@ -1,0 +1,263 @@
+/* ===== GLOBAL ====== */
+:root {
+    
+    font-family: 'JetBrains Mono', monospace;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.hide {
+    visibility: hidden;
+} 
+
+.hidden {
+    display: none;
+}
+
+button {
+    font-family: 'JetBrains Mono', monospace;
+    cursor: pointer;
+}
+
+
+/* ===== TYPOGRAPHY ====== */
+
+h1, h2 {
+    color: #2a86c3;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+/* ===== TIMER ====== */
+
+#timer {
+    text-align: right;
+    margin: 60px;
+    color: #2a86c3;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+/* ===== HOME SCREEN ====== */
+.main-content {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;  
+    width: 100vh;
+ 
+}
+
+#initial-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 40px;
+}
+#back-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+    background-color: #2a86c3;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+#back-link:hover {
+    background-color: #2893da;
+}
+#imageQuestion
+{
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+#initial-btn button {
+    width: 50%;
+    height: 100px;
+    margin: 20px 0;
+    padding: 10px 0;
+    font-size: 30px;
+    letter-spacing: 2;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.main-btn {
+    background-color: #2a86c3;
+}
+
+.main-btn:hover {
+    background-color: #2893da;
+}
+
+.leaderboard-btn {
+    background-color: rgb(255, 123, 0);
+}
+
+.leaderboard-btn:hover {
+    background-color: rgba(255, 123, 0, 0.739);
+}
+
+/* ===== QUESTION SCREEN ====== */
+#quiz-prompts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 50px 50px 50px;
+    padding: 0 10px 10px 10px;
+
+}
+
+.questionUser {
+    margin: 25px;
+    padding: 5px;
+    
+}
+
+.answersList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.answersList button {
+    height: 75px;
+    width: 30%;
+    margin: 10px 0 ;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: #2a86c3;
+    color: white;
+    text-transform: uppercase;
+}
+.answersList button:hover {
+    background-color: #2893da;
+}
+
+/* ===== POST GAME SCREEN ====== */
+
+.endScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+}
+
+.endScreen p {
+    color: #2a86c3 ;
+}
+
+#final-score {
+    color: #2a86c3;
+    margin: 30px;
+}
+
+.end-quiz-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.end-quiz-input input {
+    height: 100px;
+    width: 175%;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.end-quiz-input button {
+    height: 100px;
+    width: 175%;
+    font-size: 24px;
+    margin: 20px 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.save-btn {
+    background-color: rgb(255, 123, 0);
+}
+.save-btn:hover {
+    background-color: rgba(255, 123, 0, 0.739);
+}
+
+.again-btn {
+    background-color: rgb(25, 87, 219);
+}
+
+.again-btn:hover {
+    background-color: rgba(25, 86, 219, 0.678);
+}
+
+/* ===== HIGH SCORE SCREEN ====== */
+
+.leaderboard-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.leaderboard-info ol {
+    margin: 20px 0 0 0;
+    padding: 20px 0 0 0;
+}
+
+.leaderboard-info li {
+    color: #2a86c3;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+.back-btn {
+    height: 80px;
+    width: 20vw;
+    font-size: 24px;
+    margin: 100px 0;
+    border-radius: 5px;
+    background-color: rgb(243, 121, 8);
+    color: white;   
+}
+
+.back-btn:hover {
+    background-color: rgba(243, 122, 8, 0.705);
+}
+
+form {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

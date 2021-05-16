@@ -1,0 +1,110 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+body {
+  text-align: center;
+  font-family: "futura pt";
+  font-size: 16px;
+  background: #f0f0f0;
+  padding-top: 10px;
+}
+h2{
+  font-size:.75em;
+}
+
+a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.container {
+  display: inline-block;
+  margin: 0 auto;
+  width: 400px;
+}
+/* ANIMATIONS */
+
+.Object,
+.ObjectContainer a {
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.ObjectContainer {
+  width: 6.25em;
+  height: 6.25em;
+  float: left;
+  display: block;
+  position: relative;
+}
+
+.ObjectContainer .Object {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.ObjectContainer a {
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  line-height: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ObjectContainer span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  color:white;
+}
+
+
+.ObjectContainer:hover .Object {
+  margin: 2.5%;
+  height: 95%;
+  width: 95%;
+  border-radius: 50%;
+  -webkit-transform: rotate(100deg);
+  -moz-transform: rotate(100deg);
+  -ms-transform: rotate(100deg);
+  -o-transform: rotate(100deg);
+  transform: rotate(100deg);
+}
+
+.ObjectContainer:hover a {
+  opacity: 1;
+  bottom: 0;
+  /*line height adjust the verticle alignment*/
+  line-height: 4.5em;
+  letter-spacing:.05em;
+}
+
+#red.Object {
+  background-color: #3b5998;
+}
+#blue.Object{
+  background-color: #125688;
+}
+#maroon.Object{
+  background-color:#d50f25;
+}
+#skyblue.Object{
+  background-color:#cb2027;
+}
+a[class*="entypo-"]:before {
+	font-family: 'entypo', sans-serif;
+}

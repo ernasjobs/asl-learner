@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  video {
+   position: absolute;
+   width: 24%;
+   display: none;
+   top: 17%;
+   left: 20%;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    left: 61%;
+    background-color: #3498db;
+    font-family: verdana;
+    color: white;
+    font-size: 40px;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  }
+  button:hover {
+    position: absolute;
+    top: 50%;
+    left: 61%;
+    background-color: lightgray;
+    font-family: verdana;
+    color: #3498db;
+    font-size: 40px;
+    padding: 15x;
+    border: none;
+    border-radius: 20px;
+  }
+  #giphy
+  {
+    position: absolute;
+    top: 17%;
+    left: 48%;
+  }
+  #btn-next{
+    position: absolute;
+    top: 50%;
+    left: 68%;
+    background-color: #3498db;
+    font-family: verdana;
+    color: white;
+    font-size: 40px;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  }
+ #btn-next:hover {
+    position: absolute;
+    top: 50%;
+    left: 68%;
+    background-color: lightgray;
+    font-family: verdana;
+    color: #3498db;
+    font-size: 40px;
+    padding: 15x;
+    border: none;
+    border-radius: 20px;
+  }
+  #btn-previous{
+    position: absolute;
+    top: 50%;
+    left: 54.3%;
+    background-color: #3498db;
+    font-family: verdana;
+    color: white;
+    font-size: 40px;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  }
+ #btn-previous:hover {
+    position: absolute;
+    top: 50%;
+    left: 54.3%;
+    background-color: lightgray;
+    font-family: verdana;
+    color: #3498db;
+    font-size: 40px;
+    padding: 15x;
+    border: none;
+    border-radius: 20px;
+  }
+  h1 {
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    font-family: verdana;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+    width: 400px;
+    opacity: 0.7;
+    box-shadow: 2px 2px 4px gray;
+    text-shadow: 1.5px 1.5px 1px gray;
+  }
+
+  

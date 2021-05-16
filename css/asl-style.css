@@ -1,0 +1,166 @@
+div#gameHeader {
+  position:absolute;
+  top: 5%;
+  left: 22%;
+  width: 880px;
+  height: 70px;
+  padding: 10px;
+  margin: 0px auto;
+}
+
+div#title {
+  position: absolute;
+  left:20%;
+  top: -15%;
+  font-family: verdana;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  background-color: lightgray;
+  width: 400px;
+  padding: 20px;
+  font-size: 26px;
+  opacity: 0.7;
+  box-shadow: 2px 2px 4px gray;
+  text-shadow: 1.5px 1.5px 1px gray;
+}
+
+div#score {
+  position: absolute;
+  left:75%;
+  top: 0%;
+  color: #2a86c3;
+  font-family: verdana;
+  color: 3498db;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(226, 223, 223);
+  width: 200px;
+  padding: 10px;
+  font-size: 26px;
+  opacity: 0.7;
+  box-shadow: 2px 2px 4px gray;
+  text-shadow: 1.5px 1.5px 1px gray;
+}
+
+div#board {
+  position:absolute;
+  top: 14%;
+  left: 34.5%;
+	background: #3498db;
+	width: 680px;
+	height: 680px;
+	padding: 10px;
+	margin: 0px auto;
+}
+
+div#board > div {
+	width: 150px ;
+	height: 150px;
+	background-image: url('Card.png');
+  background-size: 150px;
+	float: left;
+	margin: 10px;
+}
+
+div#feelingReady {
+  position:absolute;
+  top: 95%;
+  left: 34%;
+  font-size: 35px;
+  width: 210px;
+  height: 70px;
+  float: left;
+  margin: 10px;
+}
+
+a#quizLink {
+  position:absolute;
+  top: 95%;
+  left: 51%;
+  font-size: 35px;
+  width: 200px;
+  height: 70px;
+  float: left;
+  margin: 10px;
+}
+
+button#startButton {
+  position:absolute;
+  top: 95%;
+  left: 70%;
+  font-size: 26px;
+  width: 150px;
+  height: 50px;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  background-color:#3498db; 
+  color: white;
+}
+button#startButton:hover {
+  position:absolute;
+  top: 95%;
+  left: 70%;
+  font-size: 26px;
+  width: 150px;
+  height: 50px;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  background-color:white; 
+  color: #3498db;
+}
+
+.side-nav,
+.nav-menu {
+  height: 55%;
+}
+.side-nav .nav-menu {
+  list-style: none;
+  padding: 40px 0;
+  width: 250px;
+  background-color: #3498db;
+}
+.side-nav .nav-item {
+  position: relative;
+  padding: 10px 20px;
+}
+.nav-item.active {
+  background-color: #fff;
+  box-shadow: 0px -3px rgba(0, 0, 0, 0.2), 0px 3px rgba(0, 0, 0, 0.2);
+}
+.nav-item.active a {
+  color: #2980b9;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+.menu-text {
+  padding: 0 20px;
+}
+.side-nav .nav-item.active::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  bottom: 100%;
+  right: 0;
+  height: 150%;
+  width: 20px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0 20px 0 0 #fff;
+}
+.side-nav .nav-item.active::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  top: 100%;
+  right: 0;
+  height: 150%;
+  width: 20px;
+  border-top-right-radius: 25px;
+  box-shadow: 0 -20px 0 0 #fff;
+}
+
+

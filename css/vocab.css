@@ -1,0 +1,504 @@
+.centered-div{
+  position:fixed;
+  top:15%;
+  bottom:0;
+  left:30%;
+  right:0;
+  margin:auto;
+}
+h1 {
+    position: absolute;
+    left: 200px;
+    font-family: verdana;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+    width: 400px;
+    opacity: 0.7;
+    box-shadow: 2px 2px 4px gray;
+    text-shadow: 1.5px 1.5px 1px gray;
+  }
+  #krToEn {
+    
+    position: absolute;
+    top: 190px;
+    left: 410px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #3498db;
+    border-width: 2px;
+    border-color: black;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  #krToEn:hover {
+    
+    position: absolute;
+    top: 190px;
+    left: 410px;
+    width: 100px;
+    height: 40px;
+    color: #3498db;
+    background-color: white;
+    border: 2px solid #3498db;
+    border-width: 2px;
+    border-color: 3498db;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  
+  #enToKr {
+    position: absolute;
+    top: 190px;
+    left: 300px;
+    width: 100px;
+    height: 40px;
+    background-color: lightgray;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  #enToKr:hover {
+    
+    position: absolute;
+    top: 190px;
+    left: 300px;
+    width: 100px;
+    height: 40px;
+    color: #3498db;
+    background-color: white;
+    border: 2px solid #3498db;
+    border-width: 2px;
+    border-color: 3498db;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  
+  #showEN {  
+    position: absolute;
+    z-index: 1;
+    top: 320px;
+    left: 20px;
+    width: 160px;
+    height: 50px;
+    color: white;
+    background-color: #3498db;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+    
+  #showEN:hover {  
+    position: absolute;
+    z-index: 1;
+    top: 320px;
+    left: 20px;
+    width: 160px;
+    height: 50px;
+    color: #3498db;
+    background-color: white;
+    border: 2px solid #3498db;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  
+  #showKR {  
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    left: 20px;
+    width: 160px;
+    height: 50px;
+    color: white;
+    background-color: #3498db;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+    z-index: -1;
+  }
+  #showKR:hover {  
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    left: 20px;
+    width: 160px;
+    height: 50px;
+    color: #3498db;
+    background-color: white;
+    border: 2px solid #3498db;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  
+  #nextCard {
+    position: absolute;
+    top: 650px;
+    left: 310px;
+    width: 170px;
+    height: 50px;
+    background-color: lightgray;
+    font-family: verdana;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  #nextCard:hover {
+    position: absolute;
+    top: 650px;
+    left: 310px;
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    color: #3498db;
+    border:2px solid #3498db;
+    font-family: verdana;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  #cat-list
+  {
+    position: absolute;
+    top: 220px;
+    left: 610px; 
+    font-family: verdana;
+    font-size: 24px;
+    font-weight: bold;
+
+  }
+  #fruits {
+    position: absolute;
+    top: 270px;
+    left: 650px;
+    width: 90px;
+    height: 35px;
+    background-color: lightgray;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  #fruits:hover {
+    position: absolute;
+    top: 270px;
+    left: 650px;
+    width: 90px;
+    height: 35px;
+    background-color: white;
+    color: #3498db;
+    border:  solid #3498db;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  
+  #colors {
+    position: absolute;
+    top: 320px;
+    left: 650px;
+    width: 90px;
+    height: 35px;
+    background-color: lightgray;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  #colors:hover {
+    position: absolute;
+    top: 320px;
+    left: 650px;
+    width: 90px;
+    height: 35px;
+    background-color: white;
+    color: #3498db;
+    border:  solid #3498db;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  
+  #verbs {
+    position: absolute;
+    top: 370px;
+    left: 650px;
+    width: 90px;
+    height: 35px;
+    background-color: lightgray;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  #verbs:hover {
+    position: absolute;
+    top: 370px;
+    left: 650px;
+    width: 90px;
+    height: 35px;
+    background-color: white;
+    color: #3498db;
+    border:  solid #3498db;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+    
+  #places {
+    position: absolute;
+    top: 420px;
+    left: 650px;
+    width: 90px;
+    height: 35px;
+    background-color: lightgray;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  #places:hover {
+    position: absolute;
+    top: 420px;
+    left: 650px;
+    width: 90px;
+    height: 35px;
+    background-color: white;
+    color: #3498db;
+    border:  solid #3498db;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  
+  #sports {
+    position: absolute;
+    top: 470px;
+    left: 650px;
+    width: 90px;
+    height: 35px;
+    background-color: lightgray;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  #sports:hover {
+    position: absolute;
+    top: 470px;
+    left: 650px;
+    width: 90px;
+    height: 35px;
+    background-color: white;
+    color: #3498db;
+    border:  solid #3498db;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  
+  #jobs {
+    position: absolute;
+    top: 520px;
+    left: 650px;
+    width: 90px;
+    height: 35px;
+    background-color: lightgray;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  #jobs:hover {
+    position: absolute;
+    top: 520px;
+    left: 650px;
+    width: 90px;
+    height: 35px;
+    background-color: white;
+    color: #3498db;
+    border:  solid #3498db;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  
+  #family {
+    position: absolute;
+    top: 570px;
+    left: 650px;
+    width: 90px;
+    height: 35px;
+    background-color: lightgray;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+
+  #family:hover {
+    position: absolute;
+    top: 570px;
+    left: 650px;
+    width: 90px;
+    height: 35px;
+    background-color: white;
+    color: #3498db;
+    border:  solid #3498db;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+  }
+  .asl
+  {
+    width: 90%;
+    height: auto;
+  }
+  
+  .flashcard {
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    width: 400px;
+    height: 390px;
+    z-index: 0;
+  }
+  
+  .english {
+    position: absolute;
+    top: 310px;
+    left: 200px;
+    width: 400px;
+    z-index: -1;
+    font-family: verdana;
+    color: green;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0px 0px;
+    text-align: center;
+  }
+  
+  .korean {
+    position: absolute;
+    top: 390px;
+    left: 200px;
+    width: 400px;
+    font-family: verdana;
+    color: purple;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px 0px;
+    text-align: center; 
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Grandstander&display=swap");
+body {
+  font-family: "Grandstander", cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  padding-left: 0px  !important;
+  margin-left: 0px !important;
+}
+.side-nav,
+.nav-menu {
+  height: 55%;
+}
+.side-nav .nav-menu {
+  list-style: none;
+  padding: 40px 0;
+  width: 250px;
+  background-color: #3498db;
+}
+.side-nav .nav-item {
+  position: relative;
+  padding: 10px 20px;
+}
+.nav-item.active {
+  background-color: #fff;
+  box-shadow: 0px -3px rgba(0, 0, 0, 0.2), 0px 3px rgba(0, 0, 0, 0.2);
+}
+.nav-item.active a {
+  color: #2980b9;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+.menu-text {
+  padding: 0 20px;
+}
+.side-nav .nav-item.active::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  bottom: 100%;
+  right: 0;
+  height: 150%;
+  width: 20px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0 20px 0 0 #fff;
+}
+.side-nav .nav-item.active::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  top: 100%;
+  right: 0;
+  height: 150%;
+  width: 20px;
+  border-top-right-radius: 25px;
+  box-shadow: 0 -20px 0 0 #fff;
+}
+
+

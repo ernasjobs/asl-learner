@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/initial-assesment.css">
+    <title>Initial Assesment</title>
+</head>
+
+<body>
+   
+    <div class="fullpage black-bg centered">
+        <nav class="side-nav">
+            <ul class="nav-menu">
+              <li class="nav-item active"><a  href="#"><i class="fa fa-home"></i><span class="menu-text">Home</span></a></li>
+              <li class="nav-item"><a href="vocabulary.html"><i class="fa fa-sign-language"></i><span class="menu-text">ASL Vocabulary</span></a></li>
+              <li class="nav-item "><a href="aslgame.html"><i class="fa fa-gamepad"></i><span class="menu-text">ASL Game</span></a></li>
+              <li class="nav-item"><a href="aslspelling.html"><i class="fa fa-edit"></i></i><span class="menu-text">ASL Spelling</span></a></li>
+            </ul>
+          </nav>
+        <div class="container start">
+            <h1 id="questionaire-title">American Sign Language (ASL) Quiz</h1>
+            <h2 id="questionaire-title">Test your knowledge and learn as you go!</h2>
+            <div class="centered">
+                <div class="button" onclick="showPage(2); setupQuestion();">
+                    <p>START</p>
+                </div>
+            </div>
+        </div>
+        <div class="container hidden">
+            <h1 class="centered" id="level-type"></h1>
+            <h2 class="centered" id="currentLevel"></h2>
+            <div class="wrapper">
+                <div class="progress-bar">
+                  <div class="progress" style="width:1%; background-position:1%;"></div>
+                </div>
+              </div>
+            <p id="level-part-1"></p>
+            <p id="level-part-2"></p>
+            <p id="level-recommended"></p>
+            
+              <br>
+            <br>
+            <div class="centered">
+                <div class="button" onclick="reloadPage(); setupQuestion();">
+                    <p>RETRY</p>
+                </div>
+            </div>
+        </div>
+        <div class="container hidden">
+            <div id="progress-bar">
+                <div id="progress">1/5</div>
+            </div>
+            <h2 id="question"></h2>
+            <div class="option" id="option0" onclick="select(this)">
+                <input type="radio" name="answer" value="0" onchange="next()">
+                <div class="content centered">
+                </div>
+                <br>
+            </div>
+            <div class="option" id="option1" onclick="select(this)">
+                <input type="radio" name="answer" value="1" onchange="next()">
+                <div class="content centered">
+                </div>
+                <br>
+            </div>
+            <div class="option" id="option2" onclick="select(this)">
+                <input type="radio" name="answer" value="2" onchange="next()">
+                <div class="content centered">
+                </div>
+                <br>
+            </div>
+            <div class="option" id="option3" onclick="select(this)">
+                <input type="radio" name="answer" value="3" onchange="next()">
+                <div class="content centered">
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/initial-assesment.js"></script>
+</body>
+
+</html>

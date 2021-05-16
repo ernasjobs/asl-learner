@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+<title>ASL Letter Match Quiz</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" type="text/css" href="css/asl-game-quiz.css">
+
+</head>
+<body>
+    <header>
+        <!-- Header timer -->
+        <div id= "timer">
+            <span>Time: 
+                <b id = "timeNumber"></b>
+            </span>
+
+        </div>
+    </header>
+    <!-- Home Screen -->
+    <main id = "playScreen" class="main-content">
+        <button id="back-link" class="back-link" onclick="aslGame()"> ASL Game</button>
+        <h1>ASL Letter Match Quiz</h1>
+        <div id="initial-btn">
+            <button id="play-btn" class="main-btn">
+                Play
+            </button>
+
+            <button id="score-btn" class="leaderboard-btn">
+                Leaderboard
+            </button>
+        </div>
+    </main>
+
+
+    <!-- Quiz Questions Section -->
+    <section id="quiz-prompts" class="questions">
+        
+        <div id="quiz-questions">
+            <!-- Question for user -->
+            <h2 id="question" class="questionUser"> 
+               
+            </h2>
+            <image src="" id="imageQuestion">  
+            <!-- Users Potential Answers -->
+            <div id="answers" class="answersList">
+                <button id="a" class="abcd" onclick="rightWrong('a')"></button>
+                <button id="b" class="abcd" onclick="rightWrong('b')"></button>
+                <button id="c" class="abcd" onclick="rightWrong('c')"></button>
+                <button id="d" class="abcd" onclick="rightWrong('d')"></button>
+            <div>
+
+        </div>
+    </section>
+
+
+    <!-- End of Quiz Section -->
+    <section id="end-quiz" class="">
+        <div class="endScreen">  
+            <h2>Final Score</h2>
+            <p>Congratulations you scored...</p>
+            <h3 id="final-score"></h3>
+
+        <div class="end-quiz-input">
+            <p class="end-quiz-p">
+                Enter initials:
+            </p>
+            <form>
+                <input type="text" placeholder="Enter your initials" name="initials" id="initials" />
+                <button type="submit" id="saveScore" class="btn-submit save-btn">Save Score</button>
+                <button id="playAgain" class="again-btn">Play Again</button>
+              </form>
+        </div>
+        </div>
+      
+    </section>
+
+    <section id="leaderboardScreen" >
+        
+        <div class="leaderboard-info">
+            <h2>Leaderboards</h2>
+            
+            <ol id="leaderboard-initials">
+            <!-- li here -->
+              
+            </ol>
+
+            <div class="btn-container">
+                <button class="back-btn" id="back-home">Go Back</button>  
+            </div>
+              
+
+        </div>
+       
+    </section>
+    <script src="js/asl-game-quiz.js"></script>
+</body>
+</html>

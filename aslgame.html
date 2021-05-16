@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ASL Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/asl-style.css">
+</head>
+<body onload="init()">
+    <nav class="side-nav">
+      <ul class="nav-menu">
+        <li class="nav-item "><a  href="index.html"><i class="fa fa-home"></i><span class="menu-text">Home</span></a></li>
+        <li class="nav-item"><a href="vocabulary.html"><i class="fa fa-sign-language"></i><span class="menu-text">ASL Vocabulary</span></a></li>
+        <li class="nav-item active "><a href="aslgame.html"><i class="fa fa-gamepad"></i><span class="menu-text">ASL Game</span></a></li>
+        <li class="nav-item"><a href="aslspelling.html"><i class="fa fa-edit"></i></i><span class="menu-text">ASL Spelling</span></a></li>
+      </ul>
+    </nav>
+ 
+  <div id="gameHeader">
+    <div id="title">ASL LETTER MATCH GAME</div>
+    <div id="score">Score: 0</div>
+  </div>
+	<div id="board"></div>
+  <div id="feelingReady">Feeling ready?</div>
+  <a id="quizLink" href=asl-game-quiz.html>Take a quiz!</a>
+  <button id="startButton" onclick="init()">Start Over</button>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+	<script src="js/asl-js.js"></script>
+  <script>
+    $(function() {
+  $("li").click(function(e) {
+    //e.preventDefault();
+    $("li").removeClass("active");
+    $(this).addClass("active");
+  });
+});
+
+  </script>
+</body>
+</html>
