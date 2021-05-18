@@ -248,7 +248,7 @@ const questions = {
  function displayProgressBar(result) {
     var $p = $('.progress');
    // var $input = $('input');
-      if(result <= 100 && result > 0) {
+      if(result <= 100 && result >= 0) {
         $p.css({
           width: result + '%',
           backgroundPosition: result + '%'
